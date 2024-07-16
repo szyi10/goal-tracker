@@ -9,26 +9,32 @@ This repository contains the frontend code for the Goal Trakcer application buil
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/goal-tracker-frontend.git
-cd goal-tracker-frontend
+git clone https://github.com/szyi10/goal-tracker.git
+cd goal-tracker
 ```
 
-2. Install dependencies
+2. Navigate tto the frontend directory:
+
+```bash
+cd frontend
+```
+
+3. Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Configure enviroment variables
+4. Configure enviroment variables
    Create a `.env` file based on `.env.example` and configure the variables.
 
-4. Start the development server
+5. Start the development server
 
 ```bash
 npm run dev
 ```
 
-5. Open the application in your browser
+6. Open the application in your browser
    Go to `http://localhost:5173/`
 
 ## Scripts
