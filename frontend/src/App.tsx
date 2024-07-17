@@ -1,8 +1,14 @@
+import { Suspense } from "react"
+import { Route, Routes } from "react-router-dom"
+import { Home } from "./pages"
+
 const App = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h2 className="text-xl font-medium">Goal Tracker</h2>
-    </div>
+    <Suspense fallback={<p>Loading...</p>}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Suspense>
   )
 }
 
