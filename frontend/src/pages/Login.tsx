@@ -15,9 +15,12 @@ const Login = () => {
   return (
     <div className="relative h-svh flex items-center justify-center">
       <header className="absolute left-4 top-4">
-        <h3 className="text-lg font-bold tracking-tight cursor-default">
+        <Link
+          to="/"
+          className="text-lg font-bold tracking-tight cursor-pointer"
+        >
           GoalTracker
-        </h3>
+        </Link>
       </header>
       <div className="flex flex-col w-full xs:max-w-96 px-4">
         <div className="mb-4">
