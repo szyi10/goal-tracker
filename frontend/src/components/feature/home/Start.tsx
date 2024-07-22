@@ -1,5 +1,11 @@
+import GlobalStyle from "../../GlobalStyle"
+
 const Start = () => {
-  return <div>Start</div>
+  return (
+    <GlobalStyle>
+      <main className="max-container px-4">Start</main>
+    </GlobalStyle>
+  )
 }
 
 export default Start

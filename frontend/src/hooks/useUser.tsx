@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const useUser = () => {
-  const [isUser, setIsUser] = useState(false)
+  const [isUser, setIsUser] = useState(true)
 
   return { isUser }
 }
